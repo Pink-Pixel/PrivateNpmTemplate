@@ -1,0 +1,17 @@
+{
+  "name": "RbxAudioController",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Module": {
+          "$path": "src/"
+        },
+        "Tests": {
+          "$path": "tests/"
+        }
+      }
+    }
+  }
+}

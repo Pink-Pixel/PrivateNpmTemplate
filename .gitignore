@@ -1,0 +1,9 @@
+# Project place file
+/PrivateNpmTemplate.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+Packages/
+node_modules/

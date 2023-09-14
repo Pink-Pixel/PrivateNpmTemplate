@@ -1,0 +1,33 @@
+{
+  "name": "@client/privatenpmtemplate",
+  "version": "1.0.0",
+  "description": "A template for the setup for a private NPM package for use within Roblox games.",
+  "main": "src/init.lua",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pink-Pixel/PrivateNpmTemplate.git"
+  },
+  "keywords": [
+    "roblox",
+    "lua",
+    "template",
+    "private",
+    "npm"
+  ],
+  "author": "Pink Pixel",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Pink-Pixel/PrivateNpmTemplate/issues"
+  },
+  "homepage": "https://github.com/Pink-Pixel/PrivateNpmTemplate#readme",
+  "files": [
+    "./src/*",
+    "default.project.json"
+  ],
+  "publishConfig": {
+    "registry": "https://pinguapps.bytesafe.dev/r/pinkpixel/"
+  }
+}
