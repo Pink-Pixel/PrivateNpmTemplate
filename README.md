@@ -29,11 +29,11 @@ We use [Bytesafe](https://bytesafe.dev). They have a free option which works gre
 - [ ] Configure StyLua. At the root, create `.vscode/settings.json` and insert:
 ```json
 {
-    "[lua]": {
-        "editor.defaultFormatter": "JohnnyMorganz.stylua",
-        "editor.formatOnSave": true,
-        "editor.rulers": [120]
-    }
+    "[lua]": {
+        "editor.defaultFormatter": "JohnnyMorganz.stylua",
+        "editor.formatOnSave": true,
+        "editor.rulers": [120]
+    }
 }
 ```
 - [ ] Next, also create `stylua.toml` and insert:
@@ -47,30 +47,30 @@ indent_type = "Spaces"
 - [ ] Modify `default.project.json` to the following
 ```json
 {
-    "name": "PrivateNpmTemplate",
-    "tree": {
-        "$path": "src"
-    }
+    "name": "PrivateNpmTemplate",
+    "tree": {
+        "$path": "src"
+    }
 }
 ```
 - [ ] Create `tests.project.json` and fill it with the following. Adjust it as required
 ```json
 {
-  "name": "PrivateNpmTemplate",
-  "tree": {
-    "$className": "DataModel",
+    "name": "PrivateNpmTemplate",
+    "tree": {
+        "$className": "DataModel",
   
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Module": {
-          "$path": "src/"
-        },
-        "Tests": {
-          "$path": "tests/"
-        }
-      }
-    }
-  }
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "Module": {
+                    "$path": "src/"
+                },
+                "Tests": {
+                    "$path": "tests/"
+                }
+            }
+        }
+    }
 }
 ```
 - [ ] Initialise NPM `npm init`
@@ -88,11 +88,11 @@ indent_type = "Spaces"
 	- [ ] Add the following Json to the end of the `package.json`. This will ensure that only the src is packaged, and that it is published to the correct repository.
 ```json
   "files": [
-    "./src/*",
-    "default.project.json"
-  ],
-  "publishConfig": {
-    "registry": "https://repository-url-here"
-  }
+    "./src/*",
+    "default.project.json"
+  ],
+  "publishConfig": {
+    "registry": "https://repository-url-here"
+  }
 ```
 - [ ] To publish to NPM, we can simply run `npm publish`
