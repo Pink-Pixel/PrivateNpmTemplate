@@ -5,6 +5,8 @@ Private Npm Template is a template project for creating private NPM packages tha
 ## Usage
 Once cloned or setup, You simply need to run `npm publish` (or `npm publish --registry https://registry-url-here`) to publish your package. You can then install it into your game projects with `npm install @scope/name` (values you should modify within `package.json`).
 
+Once brought into your game project, you can send your modules wherever you like by editing the `*.project.json` that you are using with [Rojo](https://rojo.space). You will need to point to `node_modules` for the `$path` if you are not using any scopes, or points to `node_modules/@scope` if you are. For example, this template assumes a scope of `@client`, and in our main project we might have `tree.ReplicatedStorage.Client.Modules` and within that, set the `$path` to `node_modules/@client/`. This way, any private node modules we create with the `@client` scope, they will all be accessible via `ReplicatedStorage.Client.Modules`.
+
 ## Creating from Scratch
 First off, this is intended for using private repositories, not publishing to a public registry.
 
