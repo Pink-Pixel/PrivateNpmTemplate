@@ -24,7 +24,7 @@ We use [Bytesafe](https://bytesafe.dev). They have a free option which works gre
 - [ ] Open VS Code command palette (`ctrl + shift + P`) and search for `Rojo: Open Menu`
 - [ ] Select `Install Now`
 - [ ] Select `Create one now` (You can get back here if you cancel out by opening the Rojo menu in command palette again)
-- [ ] Add both `Packages/` and ``node_modules/` to `.gitignore` file
+- [ ] Add `Packages/`, `node_modules/` and `sourcemap.json` to `.gitignore` file
 - [ ] Install Selene - `aftman add Kampfkarren/selene`
 - [ ] Configure Selene. At the root, create `selene.toml` and insert: `std = "roblox"`
 - [ ] Install StyLua - `aftman add JohnnyMorganz/stylua`
