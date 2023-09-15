@@ -1,17 +1,17 @@
 {
-  "name": "PrivateNpmTemplate",
-  "tree": {
-    "$className": "DataModel",
+    "name": "PrivateNpmTemplate",
+    "tree": {
+        "$className": "DataModel",
 
-    "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "Module": {
-          "$path": "src/"
-        },
-        "Tests": {
-          "$path": "tests/"
+        "StarterPlayer": {
+            "StarterPlayerScripts": {
+                "Module": {
+                    "$path": "src/"
+                },
+                "Tests": {
+                    "$path": "tests/"
+                }
+            }
         }
-      }
     }
-  }
 }

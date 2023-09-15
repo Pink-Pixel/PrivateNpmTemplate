@@ -1,6 +1,6 @@
 {
-  "name": "PrivateNpmTemplate",
-  "tree": {
-    "$path": "src"
-  }
+    "name": "PrivateNpmTemplate",
+    "tree": {
+        "$path": "src"
+    }
 }
