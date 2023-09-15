@@ -75,6 +75,8 @@ indent_type = "Spaces"
     }
 }
 ```
+- [ ] Generate correct sourcemap
+	- Run `rojo sourcemap .\tests.project.json --output sourcemap.json` if its ever out of sync
 - [ ] Initialise NPM `npm init`
 	- [ ] Answer all the questions:
 		- Package name should be prefixed with the scope (we use:`@client`, `@shared` or `@server`).
