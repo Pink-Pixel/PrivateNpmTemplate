@@ -85,7 +85,7 @@ indent_type = "Spaces"
 		- git repo should default
 		- Give some keywords separated by spaces.
 		- Author should be "Email format" ie `Pingu <pingu@email.com>`.
-		- License should be `Copyright`.
+		- License should be `UNLICENSED`.
 	- [ ] Remove the `scripts` section of the JSON.
 	- [ ] Add the following Json to the end of the `package.json`. This will ensure that only the src is packaged, and that it is published to the correct repository.
 ```json
