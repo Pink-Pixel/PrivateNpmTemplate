@@ -61,12 +61,21 @@ indent_type = "Spaces"
     "name": "PrivateNpmTemplate",
     "tree": {
         "$className": "DataModel",
-  
+
+        "ReplicatedStorage": {
+            "Client": {
+                "$className": "Folder",
+                "Modules": {
+                    "$className": "Folder",
+                    "PrivateNpmTemplate":{
+                        "$path": "src/"
+                    }
+                }
+            }
+        },
+
         "StarterPlayer": {
             "StarterPlayerScripts": {
-                "Module": {
-                    "$path": "src/"
-                },
                 "Tests": {
                     "$path": "tests/"
                 }
