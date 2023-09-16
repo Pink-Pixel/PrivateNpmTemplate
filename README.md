@@ -35,7 +35,8 @@ We use [Bytesafe](https://bytesafe.dev). They have a free option which works gre
         "editor.defaultFormatter": "JohnnyMorganz.stylua",
         "editor.formatOnSave": true,
         "editor.rulers": [120]
-    }
+    },
+    "luau-lsp.sourcemap.rojoProjectFile": "tests.project.json"
 }
 ```
 - [ ] Next, also create `stylua.toml` and insert:
